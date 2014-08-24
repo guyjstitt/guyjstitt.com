@@ -324,21 +324,29 @@ bottom: 200px;
 .socialSlide1{
     position: relative;
     -webkit-animation: socialSlideIn 1.2s ease-in;
+    -moz-animation: socialSlideIn 1.8s ease-in;
+    animation: socialSlideIn 1.8s ease-in;
 }
 
 .socialSlide2{
     position: relative;
     -webkit-animation: socialSlideIn 1.4s ease-in;
+    -moz-animation: socialSlideIn 1.8s ease-in;
+    animation: socialSlideIn 1.8s ease-in;
 }
 
 .socialSlide3{
     position: relative;
     -webkit-animation: socialSlideIn 1.6s ease-in;
+    -moz-animation: socialSlideIn 1.8s ease-in;
+    animation: socialSlideIn 1.8s ease-in;
 }
 
 .socialSlide4{
     position: relative;
     -webkit-animation: socialSlideIn 1.8s ease-in;
+    -moz-animation: socialSlideIn 1.8s ease-in;
+    animation: socialSlideIn 1.8s ease-in;
 }
 
 @-moz-keyframes slideRight {

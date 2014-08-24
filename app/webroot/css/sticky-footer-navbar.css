@@ -29,6 +29,12 @@ body > .container {
   margin: 20px 0;
 }
 
+@media (max-width: 400px) {
+  .container .text-muted {
+    margin-left: 8px 0;
+  }
+}
+
 #footer > .container {
   padding-right: 15px;
   padding-left: 15px;
