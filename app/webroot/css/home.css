@@ -404,3 +404,16 @@ bottom: 200px;
     overflow: hidden;
 }
 
+@media (max-width: 400px) {
+    @-o-viewport {
+        width: 320px;
+    }
+
+    @-viewport {
+        width: 320px;
+    }
+
+    @-webkit-viewport {
+        width: 320px;
+    }
+}
