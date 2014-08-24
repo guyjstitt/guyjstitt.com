@@ -49,13 +49,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/guyjstitt.com/Pages/display">My Website</a>
+          <a class="navbar-brand" href="/Pages/display">My Website</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="nav-button-left"><a href="/guyjstitt.com/Pages/display">Home</a></li>
-            <li><a href="/guyjstitt.com/About/index">About</a></li>
-            <li><a href="/guyjstitt.com/Resume/index">Resume</a></li>
+            <li class="nav-button-left"><a href="/Pages/display">Home</a></li>
+            <li><a href="/About/index">About</a></li>
+            <li><a href="=/Resume/index">Resume</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
