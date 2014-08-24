@@ -62,6 +62,8 @@
     </div>
 	
 	<?php echo $this->fetch('content'); ?>
+
+	<div class='footer-pad'></div>
 	<div id="footer">
       <div class="container">
         <p class="text-muted">Follow me on <a href="https://www.facebook.com/guyjstitt" target = "_blank"> Facebook</a>, <a href="https://twitter.com/GuyjStitt" target ="_blank">Twitter</a>, <a href="https://plus.google.com/106859996232584782611/posts" target ="_blank">Google+</a> and <a href="http://www.linkedin.com/pub/guy-stitt/43/472/146"target ="_blank">Linkedin!</a></p>

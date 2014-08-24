@@ -12,8 +12,8 @@
         </ul>
 <div class ="col-md-12 resume">
 			
-          <object class="resume" data="/MySymfony/web/bundles/images/Resume-Guy-Stitt.pdf" type="application/pdf" width="850" height="500">
-  			alt : <a href="/MySymfony/web/bundles/images/Resume-Guy-Stitt.pdf">Resume-Guy-Stitt.pdf</a>
+          <object class="resume" data="/guyjstitt.com/app/webroot/img/Resume-Guy-Stitt.pdf" type="application/pdf" width="850" height="500">
+  			alt : <a href="/guyjstitt.com/app/webroot/img/Resume-Guy-Stitt.pdf">Resume-Guy-Stitt.pdf</a>
 		</object>
 
 	</div>

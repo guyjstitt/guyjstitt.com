@@ -14,7 +14,11 @@ body {
     left: 0;
 	background-color:  #e3e3e3;
 	margin-top: 5%;
+    height: 100px;
+}
 
+.footer-pad {
+    padding: 60px;
 }
 
 
