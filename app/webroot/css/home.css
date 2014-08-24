@@ -132,6 +132,7 @@ background-repeat:no-repeat;
 border: 1px solid #eee;
 background-color: rgba(55, 55, 55, 0.1);
 margin-right: 5px;
+margin-bottom: 5px;
 }
 
 .facebook:hover, .logo:focus{
@@ -150,6 +151,7 @@ border: 1px solid #eee;
 background-color: rgba(55, 55, 55, 0.1);
 margin-right: 5px;
 margin-bottom: 15px;
+margin-bottom: 5px;
 }
 
 .linkedin:hover, .logo:focus{
@@ -167,6 +169,7 @@ background-repeat:no-repeat;
 border: 1px solid #eee;
 background-color: rgba(55, 55, 55, 0.1);
 margin-right: 5px;
+margin-bottom: 5px;
 }
 
 .twitter:hover, .logo:focus{
@@ -184,6 +187,7 @@ background-repeat:no-repeat;
 border: 1px solid #eee;
 background-color: rgba(55, 55, 55, 0.1);
 margin-right: 5px;
+margin-bottom: 10px;
 }
 
 .google:hover, .logo:focus{
