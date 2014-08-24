@@ -55,7 +55,7 @@
           <ul class="nav navbar-nav">
             <li class="nav-button-left"><a href="/Pages/display">Home</a></li>
             <li><a href="/About/index">About</a></li>
-            <li><a href="=/Resume/index">Resume</a></li>
+            <li><a href="/Resume/index">Resume</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
