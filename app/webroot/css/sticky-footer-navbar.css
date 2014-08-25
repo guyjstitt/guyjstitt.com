@@ -31,7 +31,7 @@ body > .container {
 
 @media (max-width: 400px) {
   .container .text-muted {
-    margin-left: 8px 0;
+    margin: 8px 0;
   }
 }
 

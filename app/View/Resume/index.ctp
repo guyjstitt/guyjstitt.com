@@ -10,7 +10,7 @@
           <li><a href="http://www.linkedin.com/pub/guy-stitt/43/472/146" class = "linkedin" target ="_blank">linkedin sprite</a></li>
           
         </ul>
-<div class ="col-md-12 resume">
+<div class ="col-md-12 resumeContainer">
 			
           <object class="resume" data="/app/webroot/img/Resume-Guy-Stitt.pdf" type="application/pdf" width="850" height="500">
   			alt : <a href="/app/webroot/img/Resume-Guy-Stitt.pdf">Resume-Guy-Stitt.pdf</a>

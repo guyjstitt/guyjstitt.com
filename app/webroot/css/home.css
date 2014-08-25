@@ -405,6 +405,21 @@ bottom: 200px;
     to { top: 0;}
 }
 
+@-moz-keyframes socialSlideIn {
+    from { top: 500px;}
+    to { top: 0;}
+}
+
+@-0-keyframes socialSlideIn {
+    from { top: 500px;}
+    to { top: 0;}
+}
+
+
+@keyframes socialSlideIn {
+    from { top: 500px;}
+    to { top: 0;}
+}
 
 
 
@@ -415,5 +430,18 @@ bottom: 200px;
 @viewport{
     zoom: 1.0;
     width: extend-to-zoom;
+}
+
+.resumeContainer {
+    margin-bottom: 130px;
+}
+
+.portfolioHeader {
+    position: relative;
+    display: block;
+    top: 100px;
+    left: 0;
+    width: 300px;
+    margin: 0 auto;
 }
 
