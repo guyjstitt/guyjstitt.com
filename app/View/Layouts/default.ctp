@@ -20,10 +20,13 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="My Website" />
+  <meta property="og:type" content="personal" />
+  <meta property="og:url" content="http://guyjstitt.com" />
+  <meta property="og:image" content="http://guyjstitt.com/img/guyjstitt.PNG" />
+  <meta property="og:description" content="Welcome to my personal website" />
 	<?php echo $this->Html->charset(); ?>
-	<title>
-
-	</title>
+	<title>My Website</title>
 	<?php
 		echo $this->Html->meta('icon');
 
