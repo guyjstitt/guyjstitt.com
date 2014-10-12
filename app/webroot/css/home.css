@@ -348,7 +348,7 @@ bottom: 200px;
     -moz-animation: socialSlideIn 1.8s ease-in;
     animation: socialSlideIn 1.8s ease-in;
 }
-
+/*
 @-webkit-keyframes slideUp {
     from { top: 700px;}
     to{ top: 0;}
@@ -358,7 +358,7 @@ bottom: 200px;
     from { top: 700px;}
     to { top: 0; }
 }
-/*
+
 
 @-moz-keyframes slideRight {
     from { right: 700px;}
@@ -395,7 +395,7 @@ bottom: 200px;
     to { left: 0;}
 }
 
-
+*/
 @-webkit-keyframes socialSlideIn {
     from { top: 500px;}
     to { top: 0;}
@@ -406,18 +406,12 @@ bottom: 200px;
     to { top: 0;}
 }
 
-@-0-keyframes socialSlideIn {
-    from { top: 500px;}
-    to { top: 0;}
-}
-
-
 @keyframes socialSlideIn {
     from { top: 500px;}
     to { top: 0;}
 }
 
-*/
+
 
 .container{
     overflow: hidden;
