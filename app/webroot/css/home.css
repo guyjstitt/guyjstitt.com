@@ -349,6 +349,17 @@ bottom: 200px;
     animation: socialSlideIn 1.8s ease-in;
 }
 
+@-webkit-keyframes slideUp {
+    from { top: 700px;}
+    to{ top: 0;}
+}
+
+@keyframes slideUp {
+    from { top: 700px;}
+    to { top: 0; }
+}
+/*
+
 @-moz-keyframes slideRight {
     from { right: 700px;}
     to { right: -15px;},
@@ -385,21 +396,6 @@ bottom: 200px;
 }
 
 
-@-webkit-keyframes slideUp {
-    from { top: 700px;}
-    to{ top: 0;}
-}
-
-@keyframes slideUp {
-    from { top: 700px;}
-    to{ top: 0;}
-}
-
-@keyframes slideUp {
-    from { top: 700px;}
-    to{ top: 0;}
-}
-
 @-webkit-keyframes socialSlideIn {
     from { top: 500px;}
     to { top: 0;}
@@ -421,7 +417,7 @@ bottom: 200px;
     to { top: 0;}
 }
 
-
+*/
 
 .container{
     overflow: hidden;
