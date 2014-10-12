@@ -6,20 +6,17 @@
       <div class="row border-bottom">
 
     <div class ="col-md-6">
-
-        <ul class ="social">
-          <li><a href="https://www.facebook.com/guyjstitt" class = "facebook" target = "_blank"> facebook sprite </a></li>
-          <li><a href="https://twitter.com/GuyjStitt" class = "twitter" target ="_blank">twitter sprite</a></li>
-          <li><a href="https://plus.google.com/106859996232584782611/posts" class = "google" target ="_blank">google sprite</a></li>
-          <li><a href="http://www.linkedin.com/pub/guy-stitt/43/472/146" class = "linkedin" target ="_blank">linkedin sprite</a></li>
-          
-        </ul>
-
-        <p class="clear-left">I'm starting my Senior year at the <span class= "my-label">University of Louisville</span> majoring in Computer Information Systems, with a concentration in Web-Development, and a minor in Management. I'm currently a <span class= "my-label">Front-end Web Developer</span> intern at CBS Interactive. I work directly on Cnet.com. I was the Project Manager and Web Developer of the team that developed a <span class= "my-label">Case Management System</span> for Restorative Justice Louisville. I'm also employed as a Software/Web Developer at RJL. I also have experience as a Supervisor at UPS, where I managed the entire Rollerbed truck operation. My goal is to continue developing my skill set as a Web Developer to become an invaluable asset to a company.</p>
-   
-     
-      
-       
+      <p class="clear-left">I'm currently a <span class= "my-label">Front-end Web Developer</span> intern at CBS Interactive. I work directly on Cnet.com. I was the Project Manager and Web Developer of the team that developed a <span class= "my-label">Case Management System</span> for Restorative Justice Louisville. I'm also employed as a Software/Web Developer at RJL. I also have experience as a Supervisor at UPS, where I managed the entire Rollerbed truck operation. My goal is to continue developing my skill set as a Web Developer to become an invaluable asset to a company.</p>
+      <div class="shareBarHolder"> 
+        <div class="shareBar">  
+          <ul class="soc shareThis center">
+              <li><a class="soc-twitter" href="https://twitter.com/intent/tweet?url=http://rjlou.org"></a></li>
+              <li><a class="soc-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://rjlou.org"></a></li>
+              <li><a class="soc-google" href="https://plus.google.com/share?url=http://rjlou.org"></a></li>
+              <li><a class="soc-linkedin soc-icon-last" href="http://www.linkedin.com/shareArticle?mini=true&url=http://rjlou.org"></a></li>
+          </ul>
+        </div>
+      </div>
     </div>
 
    <div class = "col-md-6 progress-bars">

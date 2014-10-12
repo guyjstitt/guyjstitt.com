@@ -1,20 +1,26 @@
 <body>
 	<div class="container">
-      <div class="page-header">
-        <h1>My Resume!</h1>
+      <div class = "row">
+        <div class="page-header">
+          <h1>My Resume!</h1>
+        </div>
+        <div class="col-sm-4">
+          <div class="shareBarHolder"> 
+            <div class="shareBar">  
+              <ul class="soc shareThis center">
+                  <li><a class="soc-twitter" href="https://twitter.com/intent/tweet?url=http://guyjstitt.com/Resume/index"></a></li>
+                  <li><a class="soc-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://guyjstitt.com/Resume/index"></a></li>
+                  <li><a class="soc-google" href="https://plus.google.com/share?url=http://guyjstitt.com/Resume/index"></a></li>
+                  <li><a class="soc-linkedin soc-icon-last" href="http://www.linkedin.com/shareArticle?mini=true&url=http://guyjstitt.com/Resume/index"></a></li>
+              </ul>
+            </div>  
+          </div>
+        </div>
+        <div class="row">
+          <div class ="col-sm-12 resumeContainer">
+            <p><a href="../img/Resume-Guy-Stitt.pdf" target="_blank" class="btn btn-primary hiddenResumeBtn" role="button">Launch</a></p>
+            <object class="resume" data="../img/Resume-Guy-Stitt.pdf" type="application/pdf" width="850" height="500"></object>
+          </div>
+        </div>
       </div>
-        <ul class ="social center">
-          <li><a href="https://www.facebook.com/guyjstitt" class = "facebook" target = "_blank"> facebook sprite </a></li>
-          <li><a href="https://twitter.com/GuyjStitt" class = "twitter" target ="_blank">twitter sprite</a></li>
-          <li><a href="https://plus.google.com/106859996232584782611/posts" class = "google" target ="_blank">google sprite</a></li>
-          <li><a href="http://www.linkedin.com/pub/guy-stitt/43/472/146" class = "linkedin" target ="_blank">linkedin sprite</a></li>
-          
-        </ul>
-<div class ="col-md-12 resumeContainer">
-			
-          <object class="resume" data="/app/webroot/img/Resume-Guy-Stitt.pdf" type="application/pdf" width="850" height="500">
-  			alt : <a href="/app/webroot/img/Resume-Guy-Stitt.pdf">Resume-Guy-Stitt.pdf</a>
-		</object>
-
-	</div>
 </body>

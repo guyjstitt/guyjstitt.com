@@ -30,9 +30,10 @@
 		echo $this->Html->css('sticky-footer-navbar');
 		echo $this->Html->css('bootstrap/bootstrap.min');
 		echo $this->Html->css('home');
-
+    echo $this->Html->css('socialIcons');
 		echo $this->Html->script('jquery-1.11.1.min');
 		echo $this->Html->script('bootstrap.min');
+    echo $this->Html->script('share');
 
 
 		echo $this->fetch('meta');
@@ -50,12 +51,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/Pages/display">My Website</a>
+          <a class="navbar-brand" href="guyjstitt.com">My Website</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="nav-button-left"><a href="/Pages/display">Home</a></li>
-            <li><a href="/About/index">About</a></li>
+            <li class="nav-button-left"><a href="http://www.guyjstitt.com">Home</a></li>
+            <li><a href="/About/index/">About</a></li>
             <li><a href="/Portfolio/index">Portfolio</a></li>
             <li><a href="/Resume/index">Resume</a></li>
           </ul>
