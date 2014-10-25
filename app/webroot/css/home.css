@@ -2,12 +2,7 @@ body {
 	background-color: w;
 }
 
-.header-fixed{
-	background-color: #AA1801;
-}
-.navbar-default{
-	border-color: darkred;
-}
+
 #footer{
 	position: absolute !important;
     bottom: 0;
@@ -224,23 +219,13 @@ width:350px;
 overflow:hidden;
 }
 
-ul.nav.navbar-nav li{
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-right-color: black;
-}
-ul.nav.navbar-nav li a{
-    color: white;
-    font-size: 12pt;
-}
+
 
 span.title{
     color:white;
 }
 
-a.navbar-brand {
-    color: white !important;
-}
+
 
 .border-bottom {
     padding-bottom: 20px;
