@@ -9,7 +9,7 @@ $(window).scroll(function() {
     var intro = $('#intro');
     var introPosition = $('.intro').position();
     if( introPosition != undefined && $(this).scrollTop() > introPosition.top){
-        $.ajax('guyjstitt.com/app/webroot/ajax/about.html', {
+        $.ajax('app/webroot/ajax/about.html', {
             success: function(response) {
                 $('#about').html(response).append();
             }
@@ -20,9 +20,9 @@ $(window).scroll(function() {
     var about = $('#about');
     var aboutPosition = $('.about').position();
     if(aboutPosition != undefined &&  $(this).scrollTop() > aboutPosition.top){
-        $.ajax('guyjstitt.com/app/webroot/ajax/portfolio.html', {
+        $.ajax('app/webroot/ajax/portfolio.html', {
             success: function(response) {
-                $('#porfolio').html(response).append();
+                $('#services').html(response).append();
             }
         }).done(function(){
             about.removeClass('about');
