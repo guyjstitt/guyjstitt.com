@@ -56,16 +56,16 @@
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
+                        <a class="page-scroll" href="#page-top" ajaxed=""></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#about" ajaxed"">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Portfolio</a>
+                        <a class="page-scroll" href="#services" ajaxed="">Portfolio</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact" ajaxed="">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -75,7 +75,7 @@
     </nav>
 
     <!-- Intro Section -->
-    <section id="intro" class="intro-section intro">
+    <section id="intro" class="intro-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -86,12 +86,11 @@
     </section>
 
     <!-- About Section -->
-    <section id="about" class="about-section about">
+    <section id="about" class="about-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>About Section</h1>
-                    
+                    {% include 'About/index.tpl' %}
                 </div>
             </div>
         </div>
@@ -102,7 +101,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Services Section</h1>
+                    {% include 'Portfolio/index.tpl' %}
                 </div>
             </div>
         </div>
@@ -113,7 +112,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Contact Section</h1>
+                    {% include 'Resume/index.tpl' %}
                 </div>
             </div>
         </div>

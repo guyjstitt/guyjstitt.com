@@ -41,16 +41,62 @@ of those sections to manage the look and feel of the site. */
     min-height: 100%;
     padding-top: 150px;
     background: #eee;
+    opacity: 0;
+    -webkit-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
 }
 
 .services-section {
     min-height: 100%;
     padding-top: 150px;
     background: #fff;
+    opacity: 0;
+    -webkit-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
 }
 
 .contact-section {
     min-height: 100%;
     padding-top: 150px;
     background: #eee;
+    opacity: 0;
+    -webkit-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
+}
+
+.fadeIn {
+    opacity: 1;
+}
+
+.slideRight {
+    position: relative;
+    -webkit-animation: slideRight 0.5s ease-in; 
+    -moz-animation: slideRight 0.5s ease-in; 
+    -o-animation: slideRight 0.5s ease-in;      
+    animation: slideRight 0.5s ease-in;  
+}
+
+@-webkit-keyframes slideRight {
+    from { left: 0px;}
+    to { left: 700px;}
+}
+
+@keyframes slideRight {
+    from { right: 700px;}
+    to { right: -15px;}
+}
+
+@media(max-width: 768px) {
+    .intro-section{
+        padding-top: 50px;
+    }
+    .about-section{
+        padding-top: 50px;
+    }
+    .services-section{
+        padding-top: 50px;
+    }
+    .contact-section{
+        padding-top: 50px;
+    }
 }

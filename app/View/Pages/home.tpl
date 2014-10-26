@@ -20,7 +20,7 @@ App::uses('Debugger', 'Utility');
         <div class="page-header">
             <h1>Welcome to My Page!</h1>
         </div>
-        <div class=" col-md-4 slide my-images crop slideRight">
+        <div class=" col-md-4 slide my-images crop">
             <img class="img-responsive" src="app/webroot/img/profile.jpg" alt="profile picture">
         </div>
         <div class ="col-md-4 box">
