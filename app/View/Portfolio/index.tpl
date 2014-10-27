@@ -6,7 +6,7 @@
 		<div class="row fluid">
 		  <div class="col-sm-4 col-md-4">
 		    <div class="thumbnail">
-		      <img src="app/webroot/img/rjlCMS.png" alt="picture">
+		      <img src="app/webroot/img/rjlCMS.PNG" alt="picture">
 		      <div class="caption">
 		        <h3> RJL CMS</h3>
 		        <p>My team and I developed a Case Management System for RJL.</p>
@@ -27,7 +27,7 @@
 		  </div>
 		  <div class="col-sm-4 col-md-4">
 		    <div class="thumbnail">
-		      <img src="app/webroot/img/rjl.png" alt="picture">
+		      <img src="app/webroot/img/rjl.PNG" alt="picture">
 		      <div class="caption">
 		        <h3>RJL New Website</h3>
 		        <p>I'm currently the developing a new website from scratch for RJL</p>
@@ -47,7 +47,7 @@
 		  </div>
 		  <div class="col-sm-4 col-md-4">
 		    <div class="thumbnail">
-		      <img src="app/webroot/img/rjlOLD.png" alt="picture">
+		      <img src="app/webroot/img/rjlOLD.PNG" alt="picture">
 		      <div class="caption">
 		        <h3>RJL Old Website</h3>
 		        <p>My team and I designed and implemented this website for RJL</p>
