@@ -1,3 +1,9 @@
+//refresh on dom load
+$(document).ready(function(){
+    $(window).scrollTop(0);
+});
+
+
 //jQuery to collapse the navbar on scroll
 $( document ).ready(function() {
  
@@ -48,8 +54,9 @@ $(document).ready(function() {
             }
         }
     });
-});
+    
 
+});
 
 /*$(window).scroll(function() {
 

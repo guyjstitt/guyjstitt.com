@@ -79,7 +79,22 @@
 	margin: 0 auto;
 	/* transform: scale(0.5); */
 	background-size: cover;
+}
 
+.profilePic.scrollimation {
+	opacity: 0;
+	transform: translateX(-1000px);
+	transition: transform .6s cubic-bezier(.17,.89,.67,1.57), opacity .6s ease-out;
+}
+
+.profilePic.scrollimation.in {
+	opacity: 1;
+	transform: translateX(0);
+}
+
+.aboutP p {
+	text-align: center;
+	font-family: sans-serif;
 }
 
 
