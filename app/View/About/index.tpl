@@ -10,7 +10,7 @@
 		      <img src="assets/responsive.png" alt="picture">
 		      <div class="caption">
 		        <h3>Front-End Development</h3>
-		        <p>I enjoy developing and designing websites for organizations</p>
+		        <p>I design and develop websites using Twig, Sass, RequireJS and Symfony or Cakephp</p>
 		      </div>
 		    </div>
 		  </div>
@@ -19,7 +19,7 @@
 		      <img src="assets/webapp.png"  alt="picture">
 		      <div class="caption">
 		        <h3>Web Application Development</h3>
-		        <p>Creating web applications from scratch is an awesome thing</p>
+		        <p>I developed and currently maintain a case management system for RJL</p>
 		      </div>
 		    </div>
 		  </div>
@@ -28,7 +28,7 @@
 		      <img src="assets/database.png" alt="picture">
 		      <div class="caption">
 		        <h3>Database Design</h3>
-		        <p>I created and maintained a database for Restorative Justice Louisville</p>
+		        <p>I have in-depth experience in database design and currently maintain a database for RJL</p>
 		      </div>
 		    </div>
 		  </div>
@@ -37,7 +37,7 @@
 		      <img src="assets/android-128.png" alt="picture">
 		      <div class="caption">
 		        <h3>Android Development</h3>
-		        <p>I've recently started creating Andriod Apps in Android Studio</p>
+		        <p>My latest hobby is designing Android apps in Android Studio</p>
 		      </div>
 		    </div>
 		  </div>

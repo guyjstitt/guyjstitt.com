@@ -1,4 +1,7 @@
 
+.wid {
+	margin-top: 80px;
+}
 .thumbnail {
 	border:none;
 	background-color: transparent;
@@ -25,8 +28,14 @@
 	-webkit-transform: scale(1);
 }
 
+.caption h3 {
+	font-family: 'Roboto Slab',serif;
+}
+.caption p {
+	font-family: sans-serif;
+}
+
 .scrollimation.fadeUp {
-	margin-top: 100px;
 	opacity: 0;
 	transform: translateY(100px);
 	-webkit-transition: -webkit-transform .6s cubic-bezier(.17,.89,.67,1.57), opacity .6s ease-out;

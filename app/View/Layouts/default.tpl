@@ -99,22 +99,13 @@
     <!-- Services Section -->
     <section id="services" class="services-section portfolio" >
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    {% include 'Portfolio/index.tpl' %}
-                </div>
-            </div>
+            
         </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact-section">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    {% include 'Resume/index.tpl' %}
-                </div>
-            </div>
         </div>
     </section>
 
