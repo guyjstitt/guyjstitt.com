@@ -19,7 +19,7 @@ body {
 
 h1, h2,.h1 .h2 {
     margin-top: 0px;
-    font-family: "Rokkitt", serif;
+    font-family: 'Roboto Slab',serif;
     font-weight: bold;
     color:black;
 
@@ -405,9 +405,6 @@ bottom: 200px;
 
 
 
-.container{
-    overflow: hidden;
-}
 
 @viewport{
     zoom: 1.0;

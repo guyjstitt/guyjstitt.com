@@ -14,6 +14,11 @@ html {
     height: 100%;
 }
 
+.navbar-default {
+    background-color: #36D9C3;
+    border-bottom: none;
+}
+
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
@@ -24,6 +29,7 @@ html {
 
     .top-nav-collapse {
         padding: 0;
+        background-color: white;
     }
 }
 
@@ -32,36 +38,28 @@ The padding is very important to make sure the scrollspy picks up the right area
 of those sections to manage the look and feel of the site. */
 
 .intro-section {
-    min-height: 100%;
-    padding-top: 150px;
+    min-height: 530px;
+    padding-top: 100px;
     background: #fff;
 }
 
 .about-section {
     min-height: 100%;
-    padding-top: 150px;
+    padding-top: 50px;
     background: #eee;
-    opacity: 0;
-    -webkit-transition: 0.5s ease-in;
-    transition: 0.5s ease-in;
+   
 }
 
 .services-section {
     min-height: 100%;
     padding-top: 150px;
     background: #fff;
-    opacity: 0;
-    -webkit-transition: 0.5s ease-in;
-    transition: 0.5s ease-in;
 }
 
 .contact-section {
     min-height: 100%;
     padding-top: 150px;
     background: #eee;
-    opacity: 0;
-    -webkit-transition: 0.5s ease-in;
-    transition: 0.5s ease-in;
 }
 
 .fadeIn {

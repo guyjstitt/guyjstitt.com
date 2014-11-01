@@ -17,7 +17,7 @@
 
 ?>
 <!DOCTYPE html>
-<html>
+<html class="no-js">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta property="og:title" content="My Website" />
@@ -28,10 +28,18 @@
 
   <title>My Website</title>
 
-  {{ html.css('bootstrap/bootstrap.min') }}
+  {{ html.css('bootstrap.min') }}
   {{ html.css('scrolling-nav') }}
   {{ html.css('socialIcons') }}
   {{ html.css('home') }}
+  {{ html.css('intro') }}
+  {{ html.css('slider') }}
+  {{ html.css('about') }}
+  
+        <link rel="stylesheet" href="css/font-awesome.css">
+
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,300italic,200,400italic,600,600italic' rel='stylesheet' type='text/css'>
  
 
 
@@ -77,22 +85,14 @@
     <!-- Intro Section -->
     <section id="intro" class="intro-section">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                   {% include 'Pages/home.tpl' %}
-                </div>
-            </div>
+            {% include 'Pages/home.tpl' %}
         </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="about-section">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    {% include 'About/index.tpl' %}
-                </div>
-            </div>
+            {% include 'About/index.tpl' %}
         </div>
     </section>
 
@@ -117,10 +117,13 @@
             </div>
         </div>
     </section>
+
   {{ html.script('jquery-1.11.1.min') }}
   {{ html.script('jquery.easing.min') }}
-  {{ html.script('bootstrap.min') }}
+  {{ html.script('libs/bootstrap.min') }}
   {{ html.script('scrolling-nav') }}
   {{ html.script('share') }}
+  {{ html.script('slider') }}
+  {{ html.script('waypoints.min') }}
 </body>
 </html>

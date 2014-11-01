@@ -1,0 +1,55 @@
+
+.thumbnail {
+	border:none;
+	background-color: transparent;
+}
+
+.aboutHeader h2, .aboutHeader p {
+	text-align: center;
+}
+
+.caption {
+	text-align: center;
+}
+.aboutHeader h2 {
+	opacity: 0;
+	transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	-webkit-transition: -webkit-transform .6s cubic-bezier(.17,.89,.67,1.57), opacity .6s ease-out;
+	transition: transform .6s cubic-bezier(.17,.89,.67,1.57), opacity .6s ease-out;
+}
+
+.aboutHeader h2.in {
+	opacity: 1;
+	transform: scale(1);
+	-webkit-transform: scale(1);
+}
+
+.scrollimation.fadeUp {
+	margin-top: 100px;
+	opacity: 0;
+	transform: translateY(100px);
+	-webkit-transition: -webkit-transform .6s cubic-bezier(.17,.89,.67,1.57), opacity .6s ease-out;
+	transition: transform .6s cubic-bezier(.17,.89,.67,1.57), opacity .6s ease-out;
+}
+
+.scrollimation.fadeUp.in {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.scrollimation.i1 {
+	transition-delay: 0.1s;
+}
+
+.scrollimation.i2 {
+	transition-delay: 0.3s;
+}
+
+.scrollimation.i3 {
+	transition-delay: 0.5s;
+}
+
+.scrollimation.i4 {
+	transition-delay: 0.7s;
+}
