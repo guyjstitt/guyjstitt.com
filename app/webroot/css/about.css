@@ -62,3 +62,24 @@
 .scrollimation.i4 {
 	transition-delay: 0.7s;
 }
+
+
+/* CSS for Aboutme.tpl*/
+.profilePic {
+	position: relative;
+	border-radius: 105%;
+	border: 1px solid black;
+	overflow: hidden;
+	padding: 125px;
+	width: auto;
+	max-width: 250px;
+	/* max-height: 400px; */
+	background: url('../img/profile2.jpg');
+	background-position: 0px -17px, center;
+	margin: 0 auto;
+	/* transform: scale(0.5); */
+	background-size: cover;
+
+}
+
+

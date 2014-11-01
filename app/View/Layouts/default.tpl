@@ -67,13 +67,13 @@
                         <a class="page-scroll" href="#page-top" ajaxed=""></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about" ajaxed"">About</a>
+                        <a class="page-scroll" href="#about" ajaxed"">What I Do</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services" ajaxed="">Portfolio</a>
+                        <a class="page-scroll" href="#services" ajaxed="">About Me</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact" ajaxed="">Contact</a>
+                        <a class="page-scroll" href="#contact" ajaxed="">Projects</a>
                     </li>
                 </ul>
             </div>
@@ -99,7 +99,7 @@
     <!-- Services Section -->
     <section id="services" class="services-section portfolio" >
         <div class="container">
-            
+            {% include 'About/aboutme.tpl' %}
         </div>
     </section>
 
