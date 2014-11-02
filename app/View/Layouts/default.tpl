@@ -17,7 +17,7 @@
 /*start default */
 ?>
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js no-csstransforms">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta property="og:title" content="My Website" />
@@ -118,7 +118,9 @@
         </div>
     </section>
   </div> 
+
   {{ html.script('jquery-1.11.1.min') }}
+   {{ html.script('libs/modernizr.min.js') }}
   {{ html.script('jquery.easing.min') }}
   {{ html.script('libs/bootstrap.min') }}
   {{ html.script('scrolling-nav') }}
