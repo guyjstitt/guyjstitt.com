@@ -23,7 +23,7 @@
   <meta property="og:title" content="My Website" />
   <meta property="og:type" content="personal" />
   <meta property="og:url" content="http://guyjstitt.com" />
-  <meta property="og:image" content="http://guyjstitt.com/img/site.jpg" />
+  <meta property="og:image" content="http://guyjstitt.com/img/site.JPG" />
   <meta property="og:description" content="Welcome to my personal website" />
 
   <title>My Website</title>
