@@ -1,4 +1,4 @@
-<!-- Resume tpl -->
+<!-- Resume twig -->
 <div class="row">
     <h2 class="skills scrollimation">My Skills</h2>
     <div class="col-sm-6">
