@@ -14,6 +14,14 @@ $( document ).ready(function() {
             $(".navbar-fixed-top").removeClass("top-nav-collapse");
         }
 
+        var picture = $('#picture');
+
+        var windowScroll = $(window).scrollTop();
+        var sub = 2140;
+        var backgroundScroll = windowScroll - sub;
+        if( picture.hasClass("in")) { 
+            picture.css("background-position","0px " + backgroundScroll + "px , center");
+        }
         //var about = $('#about');
         //var portfolio = $('#services');
         //var resume = $('#contact');
@@ -47,6 +55,18 @@ $(document).ready(function() {
     },{offset:function(){
             var h = $(window).height();
             var elemh = $(this).outerHeight();
+            if ( elemh > h*0.1){
+                return h*0.7;
+            }else{
+                return h - elemh;
+            }
+        }
+    });
+     $('#picture').waypoint(function(){
+        $(this).addClass('in');
+    },{offset:function(){
+            var h = $(window).height();
+            var elemh = $(this).outerHeight();
             if ( elemh > h*0.3){
                 return h*0.7;
             }else{
@@ -54,7 +74,6 @@ $(document).ready(function() {
             }
         }
     });
-    
 
 });
 

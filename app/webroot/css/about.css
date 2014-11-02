@@ -92,9 +92,15 @@
 	transform: translateX(0);
 }
 
+.aboutMe h2 {
+	color: white;
+	text-align: center;
+}
+
 .aboutP p {
 	text-align: center;
 	font-family: sans-serif;
+	color: white;
 }
 
 

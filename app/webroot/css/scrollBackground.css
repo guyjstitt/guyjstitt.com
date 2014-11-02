@@ -1,0 +1,14 @@
+.picture {
+	position: relative;
+	
+	border: 1px solid black;
+	overflow: hidden;
+	padding: 125px;
+	width: 100%;
+	/* max-height: 400px; */
+	background: url('../assets/uofl.jpg');
+	background-position: 0px -800px, center;
+	margin: 0 auto;
+	/* transform: scale(0.5); */
+	background-size: cover;
+}

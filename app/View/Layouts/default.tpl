@@ -35,6 +35,7 @@
   {{ html.css('intro') }}
   {{ html.css('slider') }}
   {{ html.css('about') }}
+  {{ html.css('scrollBackground') }}
   
         <link rel="stylesheet" href="css/font-awesome.css">
 
@@ -100,6 +101,13 @@
     <section id="services" class="services-section portfolio" >
         <div class="container">
             {% include 'About/aboutme.tpl' %}
+        </div>
+    </section>
+
+    <!-- Picture Section -->
+    <section id="picture" class="picture-section picture" >
+        <div class="container">
+            {% include 'Components/scrollBackground.tpl' %}
         </div>
     </section>
 

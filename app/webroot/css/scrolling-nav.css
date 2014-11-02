@@ -53,7 +53,14 @@ of those sections to manage the look and feel of the site. */
 .services-section {
     min-height: 600px;
     padding-top: 80px;
-    background: #fff;
+    background: #1D2026;
+}
+
+.picture-section {
+    min-height: 700px;
+    padding-top: 80px;
+    background: green;
+   
 }
 
 .contact-section {
