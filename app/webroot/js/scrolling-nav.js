@@ -17,9 +17,10 @@ $( document ).ready(function() {
         var picture = $('.picture');
 
         var windowScroll = $(window).scrollTop();
-        var sub = 2140;
+        var sub = 2100;
         var backgroundScroll = windowScroll - sub;
-        if( picture.hasClass("in")) { 
+        if( picture.hasClass("in")) {
+       
             picture.css("background-position","0px " + backgroundScroll + "px , center");
         }
         //var about = $('#about');
