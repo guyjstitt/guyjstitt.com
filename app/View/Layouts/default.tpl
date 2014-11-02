@@ -47,6 +47,7 @@
 
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+  <div class="contentWrapper">
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -116,7 +117,7 @@
             {% include 'Resume/resume.show.twig.tpl' %}
         </div>
     </section>
-
+  </div> 
   {{ html.script('jquery-1.11.1.min') }}
   {{ html.script('jquery.easing.min') }}
   {{ html.script('libs/bootstrap.min') }}
