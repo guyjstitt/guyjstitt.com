@@ -36,6 +36,7 @@
   {{ html.css('slider') }}
   {{ html.css('about') }}
   {{ html.css('scrollBackground') }}
+  {{ html.css('resume') }}
   
         <link rel="stylesheet" href="css/font-awesome.css">
 
@@ -74,7 +75,7 @@
                         <a class="page-scroll" href="#services" ajaxed="">About Me</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact" ajaxed="">Projects</a>
+                        <a class="page-scroll" href="#contact" ajaxed="">Resume</a>
                     </li>
                 </ul>
             </div>
@@ -105,15 +106,14 @@
     </section>
 
     <!-- Picture Section -->
-    <section id="picture" class="picture-section picture" >
-        <div class="container">
-            {% include 'Components/scrollBackground.tpl' %}
-        </div>
+    <section id="picture" class="picture-section" >
+        {% include 'Components/scrollBackground.tpl' %}
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact-section">
         <div class="container">
+            {% include 'Resume/resume.show.twig.tpl' %}
         </div>
     </section>
 
@@ -124,5 +124,6 @@
   {{ html.script('share') }}
   {{ html.script('slider') }}
   {{ html.script('waypoints.min') }}
+  {{ html.script('skills') }}
 </body>
 </html>
