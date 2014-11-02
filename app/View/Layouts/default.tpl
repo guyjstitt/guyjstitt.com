@@ -14,7 +14,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-
+/*start default */
 ?>
 <!DOCTYPE html>
 <html class="no-js">
