@@ -1,7 +1,7 @@
 <div class="row">
 	<div class="aboutHeader">
 		<h2 class="scrollimation">What I do</h2>
-		<p>I'm passionate about developing websites and web applications<br>that help organizations grow.</p>
+		<p>I'm fascinated by creating websites and applications that people will use<br>and not only find visually engaging, but also intuitive.</p>
 	</div>	
 	<div class="scrollimation wid">
 		<div class="row fluid">
