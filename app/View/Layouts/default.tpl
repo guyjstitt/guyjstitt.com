@@ -32,11 +32,7 @@
   {{ html.css('scrolling-nav') }}
   {{ html.css('socialIcons') }}
   {{ html.css('home') }}
-  {{ html.css('intro') }}
-  {{ html.css('slider') }}
-  {{ html.css('about') }}
-  {{ html.css('scrollBackground') }}
-  {{ html.css('resume') }}
+  {{ html.css('/sass/css/default.desktop') }}
   
         <link rel="stylesheet" href="css/font-awesome.css">
 
