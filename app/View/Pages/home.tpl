@@ -5,20 +5,20 @@
 	</div>
 	<div class="col-sm-6 slider">
 		<div class="macbookFrame">
-			<img class= "img-responsive img-center" src="assets/macbook.png">
+			<img class= "img-responsive img-center" src="sass/assets/macbook.png">
 			<div class="macbookScreen">
 				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 				  <!-- Indicators -->
 				  <!-- Wrapper for slides -->
 				  <div class="carousel-inner" role="listbox">
 				    <div class="item active">
-				      <img src="assets/slide_2.jpg" alt="...">
+				      <img src="sass/assets/slide_2.jpg" alt="...">
 				    </div>
 				    <div class="item">
-				      <img src="assets/slide_3.jpg" alt="...">
+				      <img src="sass/assets/slide_3.jpg" alt="...">
 				    </div>
 				    <div class="item">
-				      <img src="assets/slide_4.jpg" alt="...">
+				      <img src="sass/assets/slide_4.jpg" alt="...">
 				    </div>
 				  </div>
 				</div>
